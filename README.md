@@ -67,7 +67,14 @@ Built as part of a data analytics academic project at Lovely Professional Univer
 
 ## **📸 Dashboard Snapshots**
 
-*(Add your dashboard images here)*
+##Overview Dashboard
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/88845053-7c94-42b4-9069-98ca9f325400" />
+
+##Product Analysis Dashboard
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2dffc4a-e909-4de1-8726-44f265a892f5" />
+
 
 ---
 
