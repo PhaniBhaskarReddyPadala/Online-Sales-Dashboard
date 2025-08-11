@@ -1,4 +1,4 @@
-# **Online Sales Dashboard**
+# **Retail Sales Dashboard**
 
 An interactive Excel-based dashboard designed to analyze online retail sales performance, customer behavior, payment trends, and product insights.
 The project transforms raw transactional data into actionable business intelligence using Excel's advanced features.
@@ -8,7 +8,7 @@ Built as part of a data analytics academic project at Lovely Professional Univer
 
 ## **📌 Project Overview**
 
-* Developed an **interactive Excel dashboard** to visualize and analyze online sales data.
+* Developed an **interactive Excel dashboard** to visualize and analyze retail sales data.
 * Integrated **KPIs, pivot tables, slicers, and dynamic charts** for intuitive exploration.
 * Provided insights into **monthly sales trends, product performance, customer behavior, and returns**.
 * Enabled **filter-based analysis** for country, payment method, sales channel, order priority, shipment provider, and product category.
@@ -100,5 +100,3 @@ I extend my sincere thanks to the university for providing the platform, resourc
 A special note of gratitude to **Dr. Tanima Thakur Ma'am**, my mentor, for her invaluable support, feedback, and encouragement throughout the project.
 
 ---
-
-If you want, I can now also **add your GitHub repo link, live dashboard link, and LinkedIn post** at the top so it looks complete for portfolio purposes. Would you like me to add that?
