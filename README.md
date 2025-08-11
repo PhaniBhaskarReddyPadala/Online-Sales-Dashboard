@@ -1,60 +1,97 @@
-# Retail Sales Dashboard
+# **Online Sales Dashboard**
 
-📌 Project Overview
-The Retail Sales Dashboard is an interactive Excel-based tool that transforms raw retail transaction data into actionable insights. It provides a clear, visual representation of sales trends, customer behavior, product performance, payment preferences, and operational efficiency. By leveraging Pivot Tables, slicers, charts, and KPIs, the dashboard allows users to explore the dataset dynamically without needing advanced technical skills.
+An interactive Excel-based dashboard designed to analyze online retail sales performance, customer behavior, payment trends, and product insights.
+The project transforms raw transactional data into actionable business intelligence using Excel's advanced features.
+Built as part of a data analytics academic project at Lovely Professional University.
 
-📂 Features
+---
 
-Main Dashboard (Overview)
-KPIs: Total Sales, Total Orders, Total Quantity, High Priority Order Value
-Trends: Monthly Sales Trend
-Sales Breakdown: Sales by Payment Method, Sales by City & Country
-Customer Insights: Top-Spending Customers
-Operational Analysis: Returned Orders by Shipment Provider
+## **📌 Project Overview**
 
-Product Analysis Dashboard
-Monthly Sales: Online vs. In-store
-Performance Metrics: Quantity by Product Type, Average Discount by Category, Revenue by Product Description
-Categorical Insights: Sales by Product Category, Quantity by Sales Channel & Category
-Data Sheet: A cleaned and structured dataset for analysis.
-Pivot Tables: A total of 12 pivot tables covering different analytical aspects.
+* Developed an **interactive Excel dashboard** to visualize and analyze online sales data.
+* Integrated **KPIs, pivot tables, slicers, and dynamic charts** for intuitive exploration.
+* Provided insights into **monthly sales trends, product performance, customer behavior, and returns**.
+* Enabled **filter-based analysis** for country, payment method, sales channel, order priority, shipment provider, and product category.
+* Structured into four main sheets:
 
-📊 Dataset
-Source: Online Sales Dataset from Kaggle.
-Columns: InvoiceNo, StockCode, Quantity, InvoiceDate, UnitPrice, CustomerID, Country, Discount, PaymentMethod, ShippingCost, SalesChannel, ReturnStatus, ShipmentProvider, Category.
+  * **Dashboard (Overview)**
+  * **Product Analysis**
+  * **Data Sheet**
+  * **Pivot Tables**
 
-⚙️ Methodology
-Data Cleaning & Preprocessing:
-Removed duplicates, null CustomerIDs, and invalid entries.
-Corrected anomalies, such as negative quantities.
-Created a Total Amount column.
-Exploratory Data Analysis (EDA):
-Analyzed monthly sales trends, payment preferences, top customers, and returns.
-Evaluated category and sales channel performance.
+---
 
-Dashboard Design:
-Utilized Pivot tables and charts for dynamic interaction.
-Incorporated slicers for easy filtering by Country, Year, Category, and Payment Method.
+## **🔍 Exploratory Data Analysis (EDA)**
 
-📈 Key Insights
-Sales Trends: August saw the highest monthly sales, followed by a seasonal dip from September to December.
-Payment Preferences: Bank Transfer is the most popular payment method (35%), with PayPal (33%) and Credit Card (32%) close behind.
-Product Performance: Accessories & Furniture are the top-performing categories.
-Returns: Returns are evenly distributed among shipment providers, with FedEx having a slightly higher return rate.
-Geographic Performance: The United Kingdom leads in total sales, and Amsterdam is the top-performing warehouse city.
+* **Data Cleaning**: Removed nulls, duplicates, and incorrect entries (negative quantities, invalid discounts).
+* **Data Transformation**: Added calculated fields like **Total Amount** and standardized categorical fields.
+* **Feature Engineering**: Created high-priority order flags, aggregated sales data, and segmented payment methods.
+* **Outlier Handling**: Identified extreme values in price, quantity, and discount; addressed data anomalies.
+* **Preliminary Visualization**: Built initial pivot tables and charts to confirm trends before dashboard creation.
 
-🚀 Future Scope
-Integrate with Power BI/Tableau for real-time analytics.
-Automate dashboard updates using Power Query or VBA.
-Add forecasting models for sales prediction.
-Implement RFM (Recency, Frequency, Monetary) based customer segmentation.
-Conduct profitability and return rate analysis.
-Publish the dashboard online for broader accessibility and add a mobile-friendly design.
+---
 
-📎 Project Links
-GitHub Repository: Retail Sales Dashboard
-Dataset: https://www.kaggle.com/datasets/yusufdelikkaya/online-sales-dataset
-LinkedIn Post: https://www.linkedin.com/feed/update/urn:li:activity:7317191276422959104/
+## **🛠️ Tools & Dataset**
 
-📜 License
-This project is based on a publicly available dataset under the CC0: Public Domain license.
+* **Tools Used**: Microsoft Excel (Pivot Tables, Slicers, Conditional Formatting, Charts, Calculated Fields).
+* **Dataset Source**: [Kaggle – Online Sales Dataset](https://www.kaggle.com/datasets/yusufdelikkaya/online-sales-dataset)
+* **Dataset Features**:
+
+  * 40,000+ online retail transactions from 2020–2025
+  * Key columns: InvoiceNo, StockCode, Quantity, InvoiceDate, UnitPrice, CustomerID, Country, Discount, PaymentMethod, ShippingCost, SalesChannel, ReturnStatus, ShipmentProvider, WarehouseLocation, OrderPriority, Category.
+
+---
+
+## **📊 Key Visuals**
+
+* **Monthly Sales Trend** (Bar Chart)
+* **Sales by Payment Method** (3D Pie Chart)
+* **Top-Spending Customers** (Horizontal Bar Chart)
+* **City & Country Sales** (Combo & Line Charts)
+* **Returns by Shipment Provider** (Donut Chart)
+* **Online vs In-store Performance** (Stacked Column Chart)
+* **Product Category Analysis** (Bar & Pie Charts)
+
+---
+
+## **💡 Insights**
+
+* **August** recorded the highest sales; a seasonal decline followed from September to December.
+* **Bank Transfer** was the most preferred payment method (35%), followed closely by PayPal (33%) and Credit Card (32%).
+* **High-value customers** contributed disproportionately to total revenue, highlighting retention opportunities.
+* **Amsterdam** topped warehouse sales; **United Kingdom** led national sales.
+* **Accessories & Furniture** were top-performing categories by revenue.
+* **FedEx** had the highest return rate among shipment providers.
+
+---
+
+## **📸 Dashboard Snapshots**
+
+*(Add your dashboard images here)*
+
+---
+
+## **🚀 How to Use**
+
+1. Open the Excel file.
+2. Use the navigation menu to switch between:
+
+   * **Dashboard**
+   * **Product Analysis**
+   * **Data**
+   * **Pivot Tables**
+3. Apply slicers to filter results by date, country, sales channel, product category, payment method, etc.
+4. Hover over charts to see exact values and compare metrics.
+
+---
+
+## **🙏 Acknowledgements**
+
+This project was undertaken as part of my academic curriculum at **Lovely Professional University**.
+I extend my sincere thanks to the university for providing the platform, resources, and guidance essential to completing this work.
+
+A special note of gratitude to **Dr. Tanima Thakur Ma'am**, my mentor, for her invaluable support, feedback, and encouragement throughout the project.
+
+---
+
+If you want, I can now also **add your GitHub repo link, live dashboard link, and LinkedIn post** at the top so it looks complete for portfolio purposes. Would you like me to add that?
